@@ -1,4 +1,5 @@
 <?php
+// newsletter_subscribe.php
 header('Content-Type: application/json; charset=utf-8');
 require __DIR__ . '/inc/db.php';
 
@@ -17,6 +18,7 @@ try {
     echo json_encode(['success' => true]);
     exit;
 } catch (PDOException $e) {
+    // Log $e->getMessage() côté serveur en prod
     echo json_encode(['success' => false, 'error' => 'Erreur serveur.']);
     exit;
 }
