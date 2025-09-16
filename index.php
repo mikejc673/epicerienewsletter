@@ -6,7 +6,7 @@ $promos = $pdo->query("SELECT * FROM promotions WHERE active=1 ORDER BY created_
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Mon Épicerie — Promotions</title>
+  <title>Franprix — Promotions</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
