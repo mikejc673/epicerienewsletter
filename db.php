@@ -18,6 +18,7 @@ try {
         DB_PASS,
         $options
     );
+    echo "Connexion OK";
 } catch (Exception $e) {
     // En production, loggez et affichez un message générique
     die("Erreur de connexion à la base de données.");
