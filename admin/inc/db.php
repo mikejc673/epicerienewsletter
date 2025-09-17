@@ -1,6 +1,5 @@
 <?php
-// inc/db.php
-// CONFIGUREZ ICI vos paramètres
+
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'epicerie');
 define('DB_USER', 'root');
